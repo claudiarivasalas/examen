@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f3f3f3;
+}
+
+.contenedor{
+    height: 1000px;
+    width: 1000px;
+}
+.top{
+    height: 35px;
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color:white;
+
+}
+.juntos{
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+}
+ul{
+    margin-left: 300px;
+    display: flex;
+}
+
+li{
+    list-style: none;
+    margin-right: 5px;
+}
+
+h3{
+    font-family: serif;
+    font: size 30px;
+    margin-left: 10px;
+}
+p.margen{
+    margin-left: 10px;
+}
+.cuerpo{
+    height: 690px;
+    /* width: 950px; */
+    /* border: red solid 100px; */ 
+}
+
+.fila1{
+    padding-top: 10px;
+    height: 300px;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.fila2{
+    height: 300px; 
+    width: 800px;
+    flex-direction:column
+}
+.fila3{
+    display: flex;
+    /* flex-direction:column; */
+    /* flex-direction:row; */
+}
+.fila4{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.btn{
+    background-color: black;
+    margin-left: 500px;
+    margin-top:50px;
+    width: 80px;
+    height: 30px;
+    color: white;
+    align-items:flex-end;
+}
+.blanco{
+    border: 0px;
+    display: flex;
+    height: 300px;
+    width: 350px;
+}
+.blanco_H{
+    height: 100px;
+}
+.bloques_vertical{
+    height: 200px;
+    flex-direction: column;
+}
+
+.bloques_vertical2{
+    height: 200px;
+    width: 300px;
+}
+.bloques_vertical3{
+    height: 200px;
+    width: 400px;
+}
+.vertical1{
+    height: 280px;
+    width: 200px;
+}
+.vertical2{
+    height: 300px;
+    width: 150px;
+    margin-top: 10px;
+}
+
+.Imappal{
+    padding: 5px;
+    margin-top: 10px;
+    width: 350px;
+    height: 260px;
+}
+
+.texto1 {
+    display: flex;
+    align-items: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.Nav-Footer{
+    height: 200px;
+    color:white;
+    background-color: black;
+}
+
